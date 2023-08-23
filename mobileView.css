@@ -290,14 +290,144 @@ body{
     background-image: linear-gradient(135deg, #F3F8FF 0%, #EFF5FF 100%);
 }
 
-/* ------Section-5 : Course Highlights--------*/
-
 .section5{
-    height: 500px;
-    border: 2px solid orange;
+    /* height: 500px; */
+    /* border: 2px solid orange; */
 }
 
 .section5_content{
     margin: 20px;
-    border: 2px solid red;
+    margin-top:40px
+    /* border: 2px solid red; */
+}
+
+.courseHighlightsDiv{
+    /* border: 2px solid orange; */
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 29px;
+    /* margin-top: 30px; */
+}
+.courseHighlightGrid{
+    
+    /* border: 2px solid red; */
+}
+.courseHighlightGrid .courseHigh_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 3px;
+    /* margin: 28px 20px; */
+}
+.courseHighlightGrid .courseHigh_items  img{
+    margin: 12px 20px;
+}
+
+/* <!-- ---Section-6 : Student Testimonials---- --> */
+
+/* Header content */
+.section6{
+    /* height: 500px; */
+    /* border: 2px solid orange; */
+    background-image: linear-gradient(99.61deg, #F3F8FF -0.51%, #EFF5FF 100.66%);
+    padding-top: 35px;
+    
+}
+.section6_content .heading{
+    margin: 35px 15px;
+    margin-bottom: 20px;
+}
+
+.TestimonalRatings{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.TestimonalRatings p{
+    margin: 0;
+    color: #212529;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 168.75% */
+}
+
+.TestimonalRatings h5{
+    margin: 0;
+    /* width: 30px; */
+    color: #212529;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.TestimonalRatings .stars{
+    margin: 0;
+}
+
+
+/* review */
+.review_container{
+    /* border: 2px solid blueviolet; */
+    margin: 20px 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #E6E6E6;
+    background-color: #FFF;
+    padding-bottom: 40px;
+    /* width: 345px;*/
+    /* height: 358px; */
+    
+}
+
+.review_content{
+    color: #212529;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 180% */
+}
+
+.reviewersProfile{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 30px; 
+}
+
+
+.abtReviewer p{
+    margin: 0;
+
+    color: #212529;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+}
+
+.abtReviewer .name{
+    color: #212529;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-bottom: 7px;
+    
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    /* text-align: center;
+    -webkit-tap-highlight-color: transparent; */
+    display: none;
 }
