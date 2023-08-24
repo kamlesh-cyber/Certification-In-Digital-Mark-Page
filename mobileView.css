@@ -498,3 +498,377 @@ body {
     -webkit-tap-highlight-color: transparent; */
   display: none;
 }
+
+/* -----Section-8: Completion Certification-----  */
+.section8 {
+  background-color: #fff;
+  /* height: 500px; */
+  /* margin-bottom: 65px; */
+}
+.section8_container {
+  /* border: 2px solid orange; */
+}
+
+.complCertifcateBlock {
+  /* height: 300px; */
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  padding: 20px;
+  padding-top: 74px;
+}
+
+@media (min-width: 768px) {
+  .complCertifcateBlock {
+    /* height: 300px; */
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    /* border: 2px solid red; */
+    /* padding: 20px; */
+  }
+  .complCertifcateBlock .complCertHeading {
+    display: flex;
+    gap: 16px;
+  }
+}
+
+.complCertifcateBlock .complCertHeading {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 16px;
+}
+.complCertifcateBlock .complCertHeading h2 {
+  color: #212529;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+}
+.complCertifcateBlock p {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 186.667% */
+  padding: 0;
+  margin: 0;
+}
+
+.complCertifcateBlock .compCertificateImg {
+  text-align: center;
+  margin: 35px 0;
+}
+
+/* <!-- -----Section-9: Completion Certification --> */
+.section9 {
+  background-color: #fff;
+  /* border: 2px solid blueviolet; */
+}
+.section9_container {
+  /* border: 2px solid orange; */
+  padding-top: 70px;
+  /* padding-bottom: 30px; */
+}
+
+.indusCertiDiv1 {
+  /* border: 2px solid yellowgreen; */
+  margin: 30px 0;
+  padding-left: 20px;
+  text-align: center;
+}
+.indusCerti-item {
+  max-width: 317px;
+  min-width: 317px;
+  border: 1px solid #d9e0e4;
+  border-radius: 5px;
+  padding: 20px 0;
+  margin-right: 5px;
+}
+.indusCerti-item:hover {
+  background-image: linear-gradient(
+    90deg,
+    #ed7e43 0%,
+    #fe5184 67.07%,
+    #bc5d9a 100%
+  );
+  box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.11);
+}
+
+.indusCerti-item span {
+  color: black;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.indusCerti-item span:hover {
+  color: #fff;
+}
+
+/* indusCertiDiv2 */
+.indusCertiDiv2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+
+  /* border: 2px solid salmon; */
+  padding: 40px;
+  /* margin: 0px; */
+}
+
+@media (min-width: 768px) {
+  .indusCertiDiv2 {
+    display: flex;
+    flex-direction: row;
+    gap: 62px;
+  }
+}
+
+.indusCertiContentDiv .indusCertiSubContentDiv1 {
+  display: flex;
+  gap: 14px;
+}
+.indusCertiContentDiv .indusCertiSubContentDiv1 h2 {
+  color: #212529;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.indusCertiContentDiv p {
+  width: 335px;
+  color: #000;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 186.667% */
+}
+.indusCertiContentDiv .indusCertiSubContentDiv2 {
+  display: flex;
+
+  gap: 5px;
+}
+.indusCertiContentDiv .indusCertiSubContentDiv2 div {
+  /* width: 129px; */
+  height: 37px;
+  padding: 0 8px;
+  background-color: #e7edf0;
+  flex-shrink: 0;
+  border-radius: 5px;
+  color: #000;
+  font-family: Open Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px; /* 269.231% */
+}
+
+/* -----Section-10: Skills You Will Learn------ */
+.section10 {
+  border: 2px solid orange;
+}
+.section10_container {
+  /* margin: 20px; */
+  /* height: 500px; */
+  margin: 20px;
+  padding: 25px;
+  border: 2px solid;
+
+  background-image: url("img/Skills_mobile-jpg.jpg");
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  background-size: contain;
+  padding-top: 244px;
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .section10_container {
+    padding-top: 329px;
+  }
+}
+.section10_container .heading {
+  color: #fff;
+  text-align: start;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+
+  padding-bottom: 10px;
+}
+.skillsYouLearnGrid {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 16px;
+  /* padding-bottom: -60px; */
+  padding-top: 30px;
+  border: 2px solid blue;
+}
+.skillYL_gridItem {
+  display: flex;
+  gap: 10px;
+
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.skillYL_gridItem p {
+  padding: 0;
+  margin: 0;
+}
+
+/* -----Section-11: TOp Career option in Diital Marketing------ */
+
+.section11 {
+  background-color: #f1f7ff;
+  padding-top: 65px;
+}
+
+.topCareerInDM_item {
+  width: 280px;
+  height: 304px;
+  flex-shrink: 0;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  transition: all 1s;
+}
+.topCareerInDM_item .card:hover {
+  background-image: linear-gradient(180deg, #f7b541 0%, #f90 81.04%);
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.1);
+  transition: all 1s;
+}
+.topCareerInDM_item .card:hover .card-body .card-title {
+  color: #fff;
+}
+.topCareerInDM_item .card:hover .card-body .card-text {
+  color: #fff;
+}
+.topCareerInDM_item .card:hover .img1 {
+  background-image: url(img/topCareerInDm1.1.png);
+}
+.topCareerInDM_item .card:hover .img2 {
+  background-image: url(img/topCareerInDm2.1.png);
+}
+.topCareerInDM_item .card:hover .img3 {
+  background-image: url(img/topCareerInDm3.1.png);
+}
+.topCareerInDM_item .card:hover .img4 {
+  background-image: url(img/topCareerInDm4.1.png);
+}
+.topCareerInDM_item .card {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.topCareerInDM_item .card .card-img {
+  margin-top: 52px;
+  width: 63px;
+  height: 63px;
+  flex-shrink: 0;
+}
+.topCareerInDM_item .card .card-img-div {
+  margin-top: 52px;
+  width: 63px;
+  height: 63px;
+  flex-shrink: 0;
+  /* border: 1px solid red; */
+}
+.topCareerInDM_item .card .img1 {
+  background-image: url(img/topCareerInDm1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.topCareerInDM_item .card .img2 {
+  background-image: url(img/topCareerInDm2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.topCareerInDM_item .card .img3 {
+  background-image: url(img/topCareerInDm3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.topCareerInDM_item .card .img4 {
+  background-image: url(img/topCareerInDm4.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.topCareerInDM_item .card-body .card-title {
+  color: #212529;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.topCareerInDM_item .card-body .card-text {
+  width: 230px;
+
+  color: #212529;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+}
+
+/* ----Tools You Will Learn----- */
+.section12 {
+  padding-top: 80px;
+}
+
+.toolsYouWillLearn_flexBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.toolsYouWillLearn_flexBox img {
+  width: 135px;
+  height: 55px;
+  flex-shrink: 0;
+  margin: 15px;
+  padding: 0;
+}
+
+@media (min-width: 375px) and (max-width: 494px) {
+  .toolsYouWillLearn_flexBox img {
+    width: 108px !important;
+    height: 44px !important;
+    flex-shrink: 0;
+    margin: 5px;
+  }
+}
+
+/* -----Section-13: Instructors------- */
+
+.section13 {
+}
+
+.InstructorsDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
