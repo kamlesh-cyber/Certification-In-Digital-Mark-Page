@@ -897,7 +897,15 @@ body {
     #f1f7ff 76.95%,
     #ddecff 100%
   );
-  padding: 50px 41px;
+  padding: 50px 25px;
+}
+@media (max-width: 382px) {
+  .InstructorsDiv .card {
+    padding: 25px 0px;
+  }
+  .InstructorsDiv .card-body {
+    padding: 0;
+  }
 }
 @media (max-width: 768px) {
   .InstructorsDiv .card {
@@ -905,7 +913,7 @@ body {
     height: 539px;
     flex-shrink: 0;
 
-    padding: 50px 20px;
+    /* padding: 50px 20px; */
   }
 }
 
@@ -921,7 +929,7 @@ body {
 
 .InstructorsDiv .orgExp_flexBox {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .InstructorsDiv .orgExp_flexBox .orgExp_item {
@@ -935,4 +943,211 @@ body {
   width: 15px;
   height: 15px;
   flex-shrink: 0;
+}
+
+/* <!-- -------------Section-14 : Why Eduonix?---------------> */
+
+.section14_container .whyEdu_flexBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  border: 2px solid salmon;
+}
+
+@media (min-width: 768px) {
+  .section14_container .whyEdu_flexBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 65px;
+  }
+}
+
+.whyEdu_item {
+  margin-bottom: 44px;
+}
+
+.whyEdu_item h3 {
+  color: #ff7a00;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 93.333% */
+  margin-bottom: 28px;
+}
+
+.whyEdu_item span {
+  color: #212529;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 140% */
+}
+
+/* <!-- -------------Section-15: Syllabus---------------> */
+.section15 {
+  background-color: #ecf3f8;
+  padding-top: 35px;
+}
+.section15_container .syll_heading{
+  display: flex;
+  /* flex-wrap: wrap; */
+  color: #212529;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+
+  gap: 15px;
+}
+.section15_container .syllHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+
+}
+@media (max-width: 767px){
+  .section15_container .syllHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+    /* justify-content: flex-start; */
+
+}
+}
+.syllHeader a {
+  display: flex;
+  background-color: #ffb850;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 16px;
+  width: 250px;
+  height: 46px;
+  border-radius: 3px;
+  text-decoration: none;
+
+  color: #FFF;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 137.5%; /* 20.625px */
+  letter-spacing: 0.15px;
+}
+
+.syll_heading .module{
+  display: flex;
+  justify-content: center;
+  width: 131px;
+  height: 44px;
+  display: flex;
+  background-color: #fff;
+  text-align: center;
+  align-items: center;
+  padding: 9px 24px;
+  border-radius: 25rem;
+
+  color: #212529;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 173.333% */
+}
+.syll_heading  h4{
+padding: 0;
+margin: 0px;
+}
+
+.syll_heading .module span{
+  margin-top: 5px;
+
+}
+
+/* <!-- accordion-Fundamentals of Digital Marketing --> */
+
+.accordion-body{
+    background-color: #D7DFE3;
+}
+
+
+.moreBtn{
+    display: block;
+    /* border: 2px solid blue; */
+    text-align: center;
+    border: none;
+    background: none;
+    color: #212529;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 173.333% */
+}
+
+.moreBtn_subContent{
+    display: block;
+    /* border: 2px solid blue; */
+    /* text-align: center; */
+    padding-left: 10px;
+    border: none;
+    background: none;
+    color: #212529;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 173.333% */
+}
+
+#accordBtn, #more_accordBtn{
+
+    border: none;
+    background: none;
+    color: #212529;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 173.333% */
+}
+
+
+
+.moreSubContents{
+    display: none;
+}
+#more_syllabus_accordion{
+
+    display: none;
+
+    transform: translateY(-10px);
+    transition: opacity 5s, transform 0.3s;
+    z-index: 1;
+
+}
+
+/*  <!-- --------Section-16: course-Fees---------------> */
+
+.section16{
+  padding-bottom: 30px;
+}
+
+.courseFee_flexBox{
+background-image: linear-gradient(356deg, #407BFF 0%, #6B99FF 100%);
+box-shadow: 0px 16px 21px rgba(0, 0, 0, 0.15);
 }
