@@ -388,7 +388,6 @@ body {
 
 .reviewersProfile {
   display: flex;
-  flex-wrap: wrap;
   gap: 16px;
   margin-top: 30px;
 }
@@ -437,8 +436,8 @@ body {
 }
 
 .abtTheCourse_container {
-  width: 325px;
-  height: 350px;
+  /* width: 325px;
+  height: 350px; */
   margin-right: 15px;
   /* background-color: #fe5184; */
   /* margin-top: 18px; */
@@ -739,7 +738,7 @@ body {
 }
 
 .topCareerInDM_item {
-  width: 280px;
+  /* width: 280px; */
   height: 304px;
   flex-shrink: 0;
   margin-bottom: 40px;
@@ -864,11 +863,76 @@ body {
 /* -----Section-13: Instructors------- */
 
 .section13 {
+  padding: 75px 0px;
 }
 
 .InstructorsDiv {
+  margin-top: 45px;
   display: flex;
+
   justify-content: center;
   align-items: center;
   text-align: center;
+  gap: 29px;
+
+  /* border: 2px solid blue; */
+}
+
+.InstructorsDiv .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  text-align: center;
+  /* border: 2px solid orange; */
+  border-radius: 5px;
+  /* width: 531px; */
+  height: 520px;
+  flex-shrink: 0;
+  background-image: linear-gradient(
+    135deg,
+    #deecff 0%,
+    #eff3f8 24.92%,
+    #f1f7ff 76.95%,
+    #ddecff 100%
+  );
+  padding: 50px 41px;
+}
+@media (max-width: 768px) {
+  .InstructorsDiv .card {
+    /* width: 332px; */
+    height: 539px;
+    flex-shrink: 0;
+
+    padding: 50px 20px;
+  }
+}
+
+.InstructorsDiv .card .card-img {
+  width: 171px;
+  height: 156px;
+  border: 2px solid #03b5d5;
+  border-radius: 30px;
+  flex-shrink: 0;
+  /* margin-top: 45px; */
+  display: inline;
+}
+
+.InstructorsDiv .orgExp_flexBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.InstructorsDiv .orgExp_flexBox .orgExp_item {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+  align-items: center;
+  text-align: center;
+}
+.InstructorsDiv .orgExp_flexBox .orgExp_item img {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
 }
